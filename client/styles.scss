@@ -1,5 +1,5 @@
 // Imagenes importadas
-$search-icon: url("./assets/images/ic_Search.png");
+$search-icon: url('./assets/images/ic_Search.png');
 
 // Modulos de commponentes importados
 @import './src/components/reset-styles';
@@ -14,6 +14,3 @@ $search-icon: url("./assets/images/ic_Search.png");
 
 @import './src/components/organisms/ProductDetail/ProductDetail';
 @import './src/components/organisms/ProductSearch/ProductSearch';
-
-// Modulos de paginas importados, pdte actualizar
-// @import './pages/Home/Home';
