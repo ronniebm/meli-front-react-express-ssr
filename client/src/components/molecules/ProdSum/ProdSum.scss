@@ -1,0 +1,15 @@
+// Estilos del componente ProductDetail
+.prod-sum {
+    // background-color: orange;
+    padding: 10px 10px;
+    &__header {
+        font-size: $fs-prod-sum-header-mob;
+    }
+    &__description {
+        font-size: $fs-prod-sum-description-mob;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+}

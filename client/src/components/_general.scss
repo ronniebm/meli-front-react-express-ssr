@@ -1,0 +1,50 @@
+// @import './reset-styles';
+
+// general colors
+$yellow: #ffe600;
+$carbon-black: #333333;
+$strong-gray: #666666;
+$middle-gray: #999999;
+$light-gray: #eeeeee;
+$blue: #3483fa;
+$white: #ffffff;
+$black: #000000;
+
+// Text fontSizes-mobile.
+$fs-btn-mob: 16px;
+$fs-breadcrumb-mob: 12px;
+$fs-input-text-mob: 15px;
+$fs-card-price-mob: 20px;
+$fs-card-location-mob: 11px;
+$fs-card-title-mob: 13px;
+$fs-prod-info-status-mob: 12px;
+$fs-prod-info-title-mob: 20px;
+$fs-prod-info-price-mob: 30px;
+$fs-prod-sum-header-mob: 20px;
+$fs-prod-sum-description-mob: 14px;
+
+// Text fontSizes-tablet.
+$fs-btn-tab: 16px;
+$fs-breadcrumb-tab: 14px;
+$fs-input-text-tab: 20px;
+$fs-card-price-tab: 28px;
+$fs-card-location-tab: 18px;
+$fs-card-title-tab: 25px;
+
+// Text fontSizes-web.
+$fs-btn: 16px;
+$fs-input-text: 18px;
+$fs-card-price: 24px;
+$fs-card-location: 12px;
+$fs-card-title: 18px;
+
+
+// mixin: no border
+@mixin no-border {
+  border: 0;
+}
+
+// mixin: rounded corner
+@mixin rounded-corner {
+  border-radius: 4px;
+}

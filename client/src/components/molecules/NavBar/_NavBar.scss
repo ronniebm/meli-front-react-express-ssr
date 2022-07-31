@@ -1,0 +1,74 @@
+
+// Estilos del navbar
+.navbar {
+  background-color: $yellow;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__box {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+  }
+  &__box-icon {
+    margin: 0 10px;
+    width: 40px;
+  }
+  &__box-search {
+    position: relative;
+    width: 100%;
+    height: 41px;
+    margin-right: 10px;
+    &__text {
+        width: 100%;
+        height: 100%;
+        font-size: $fs-input-text-mob;
+        border: 1px solid $middle-gray;
+        padding: 0 50px 0 10px;
+        @include rounded-corner;
+      }
+      &__text:focus {
+        outline: none;
+      }
+      &__icon {
+        position: absolute;
+        transform: translateX(-42px);
+        width: 40px;
+        height: 40px;
+        margin: 1px;
+        background-color: $light-gray;
+        border-radius: 0px 4px 4px 0px;
+        background-image: $search-icon;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 15px;
+        img {
+            margin: 32.5%;
+        }
+      }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    height: 80px;
+    &__box-icon {
+      margin: 0 30px;
+    }
+    &__box-search {
+      margin-right: 30px;
+      &__text {
+          font-size: $fs-input-text-tab;
+          padding: 0 77px 0 20px;
+        }
+        &__icon {
+          transform: translateX(-56px);
+          width: 54px;
+          height: 54px;
+          background-size: 18px;
+        }
+    }
+  }
+}

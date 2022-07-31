@@ -1,0 +1,27 @@
+// Estilos del componente ProductDetail
+.product {
+  &__img {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 85vw;
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+    .product {
+        display: flex;
+        padding: 0px 30px;
+        &__img {
+            display: block;
+            img {
+              width: 30vw;
+            }
+        }
+        &__info {
+            padding-top: 32px;
+        }
+    }
+}

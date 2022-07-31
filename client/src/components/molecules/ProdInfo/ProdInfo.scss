@@ -1,0 +1,16 @@
+// Estilos commponente ProdInfo
+.prod-info {
+  padding: 0px 10px;
+  &__status {
+    font-size: $fs-prod-info-status-mob;
+    color: $strong-gray;
+    margin-bottom: 16px;
+  }
+  &__title {
+    font-size: $fs-prod-info-title-mob;
+  }
+  &__price {
+    font-size: $fs-prod-info-price-mob;
+    padding: 15px 0px;
+  }
+}

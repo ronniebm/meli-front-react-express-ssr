@@ -1,0 +1,19 @@
+// Imagenes importadas
+$search-icon: url("./assets/images/ic_Search.png");
+
+// Modulos de commponentes importados
+@import './src/components/reset-styles';
+@import './src/components/general';
+@import './src/components/atoms/Button/Button';
+
+@import './src/components/molecules/Breadcrumb/Breadcrumb';
+@import './src/components/molecules/ItemCard/ItemCard';
+@import './src/components/molecules/NavBar/NavBar';
+@import './src/components/molecules/ProdInfo/ProdInfo';
+@import './src/components/molecules/ProdSum/ProdSum';
+
+@import './src/components/organisms/ProductDetail/ProductDetail';
+@import './src/components/organisms/ProductSearch/ProductSearch';
+
+// Modulos de paginas importados, pdte actualizar
+// @import './pages/Home/Home';
