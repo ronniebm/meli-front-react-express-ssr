@@ -16,15 +16,23 @@ const ProductSearch = ({ resultSearch }) => {
   }, [searchParams]);
 
   return (
-    <>
+    <div className='product-search'>
       {resultSearch
         ? resultSearch?.items.map((item) => {
-            return <ItemCard item={item} key={item.id} />;
+            return (
+              <div className='product-search__item' key={item.id}>
+                <ItemCard item={item} key={item.id} />
+              </div>
+            );
           })
         : refreshResult?.items.map((item) => {
-            return <ItemCard item={item} key={item.id} />;
+            return (
+              <div className='product-search__item' key={item.id}>
+                <ItemCard item={item} key={item.id} />
+              </div>
+            );
           })}
-    </>
+    </div>
   );
 };
 
