@@ -2,6 +2,7 @@
 .item-card {
   display: flex;
   align-items: center;
+  color: $black;
   &__img {
     padding: 0px 16px;
     img {
